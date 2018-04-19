@@ -1,0 +1,50 @@
+.CenterMe {
+    background-color: indigo;
+    color: #ebebeb;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MenuWrap {
+    background-color: indigo;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    min-height: 2.75rem;
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: row-reverse; */
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.ListItem, 
+.LastItem {
+    color: #ebebeb;
+    text-decoration: none;
+}
+
+@media (min-width: 31.25em) {
+    .ListItem {
+        margin-right: 1rem;
+    }
+    .LastItem {
+        /* margin-right: auto; */
+        margin-left: auto;
+    }
+}
+
+.InlineFlex {
+    display: inline-flex;
+    align-items: center;
+    height: 120px;
+    padding: 0 4px;
+    background-color: indigo;
+    text-decoration: none;
+    border-radius: 3px;
+    color: #ddd;
+}
